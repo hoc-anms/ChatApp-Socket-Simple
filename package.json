@@ -1,0 +1,34 @@
+{
+  "name": "chat_app_realtime_nodejs",
+  "version": "1.0.0",
+  "description": "using express node js, socket io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoc-anms/Chat-App-NodeJS.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "socket"
+  ],
+  "author": "hoc-anms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/Chat-App-NodeJS/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/Chat-App-NodeJS#readme",
+  "devDependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
